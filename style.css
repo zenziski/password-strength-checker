@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.corpo{
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    background: #aaa;
+    justify-content: center;
+    align-items: center;
+}
+.corpo-form{
+    background-color: #fff;
+    max-width: 700px;
+    max-height: 500px;
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center;
+}
+#forca, #corpo-barra{
+    padding-bottom: 10px;
+}
+.corpo-barra{
+    width: 60%;
+    background-color: grey;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.barraDeProgresso{
+    height: 125%;
+    width: 0%;
+    background-color: green;
+    transition: 450ms;
+}
+
+#senha{
+    padding-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.alerta-senha{
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px #363636;
+}
